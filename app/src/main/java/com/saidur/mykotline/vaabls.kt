@@ -19,4 +19,14 @@ fun main()
     var sum = x + y
     designation="Software"
     println(designation+":"+sum)
+
+    //Findin a string in a string
+    var data="My name is saidur rahman"
+    println(data.indexOf("saidur"))
+
+    //Concat
+    var data1="I'm a software engineer"
+    println(data1+":"+"ok")
+    println(data1.plus(":ok2"))
+    println("I'm saidur,$data $data1")
 }
