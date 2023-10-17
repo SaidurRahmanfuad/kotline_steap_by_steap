@@ -38,4 +38,22 @@ fun main()
         "Younger brother"
     }
     println(result)
+
+    //when as an expression
+    val z = 6
+    var res=when(z){
+        1->"Uno"
+        2->"Due"
+        3->"Tre"
+        4->"Quarto"
+        5->"Chinque"
+        6->"Sei"
+        7->"Sette"
+        else -> "Nothing"
+    }
+    println(res)
+
+    //Loops
+
+
 }
