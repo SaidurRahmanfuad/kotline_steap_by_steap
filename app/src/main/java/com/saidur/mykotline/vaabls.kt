@@ -29,4 +29,13 @@ fun main()
     println(data1+":"+"ok")
     println(data1.plus(":ok2"))
     println("I'm saidur,$data $data1")
+
+    //if else as an expression
+    val a=10
+    var result= if(a > 8){
+        "Big brother"
+    }else{
+        "Younger brother"
+    }
+    println(result)
 }
